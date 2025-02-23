@@ -32,7 +32,13 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost',                         # Localhost for development
 ]
 
-ALLOWED_HOSTS = ['https://big-blog-apis.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'big-blog-apis.onrender.com',
+    'localhost',
+    '127.0.0.1',
+    # add any other hostnames you want to allow
+]
+
 
 
 
