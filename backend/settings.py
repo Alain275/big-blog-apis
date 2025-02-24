@@ -288,5 +288,5 @@ JAZZMIN_UI_TWEAKS = {
 
 CORS_ALLOWED_ORIGINS = [
     "https://www.yourdomain.com",
-    "http://localhost:5173",
+    "http://localhost:5173/",
 ]
