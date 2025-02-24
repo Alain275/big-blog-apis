@@ -34,7 +34,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 ALLOWED_HOSTS = [
     'big-blog-apis.onrender.com',
-    'localhost',
+    'http://localhost:5173',
     '127.0.0.1',
     # add any other hostnames you want to allow
 ]
@@ -288,5 +288,5 @@ JAZZMIN_UI_TWEAKS = {
 
 CORS_ALLOWED_ORIGINS = [
     "https://www.yourdomain.com",
-    "http://localhost:5173/",
+    "http://localhost:5173",
 ]
